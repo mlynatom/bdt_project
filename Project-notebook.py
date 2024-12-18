@@ -87,3 +87,7 @@ checkpoint = '/mnt/pid/checkpoint_file_batch.txt'
 
 #data schema for parsing raw data
 schema = 'array<struct<geometry: struct<coordinates: array<double>, type: string>, properties: struct<last_position: struct<bearing: int, delay: struct<actual: int, last_stop_arrival: int, last_stop_departure: int>, is_canceled: string, last_stop: struct<arrival_time: string, departure_time: string, id: string, sequence: int>, next_stop: struct<arrival_time: string, departure_time: string, id: string, sequence: int>, origin_timestamp: string, shape_dist_traveled: string, speed: string, state_position: string, tracking: boolean>, trip: struct<agency_name: struct<real: string, scheduled: string>, cis: struct<line_id: string, trip_number: string>, gtfs: struct<route_id: string, route_short_name: string, route_type: int, trip_headsign: string, trip_id: string, trip_short_name: string>, origin_route_name: string, sequence_id: int, start_timestamp: string, vehicle_registration_number: string, vehicle_type: struct<description_cs: string, description_en: string, id: int>, wheelchair_accessible: boolean, air_conditioned: boolean, usb_chargers: boolean>>, type: string>>'
+
+# COMMAND ----------
+
+#minor change
